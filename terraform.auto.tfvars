@@ -15,34 +15,34 @@
 #cloud_api_key_id = ""
 
 #Common workspaces
-ikswsname = "rtp-iks-demo-01"
-globalwsname = "rtp-iks-demo-01-global"
+ikswsname = "iks-demo-01-ist"
+globalwsname = "ist-iks-demo-01-global"
 
 
 #Configurable and to be uploaded based on sandbox env
-clustername = "rtp-iks-demo-01"
-ippool_list = "rtp-iks-demo-01-ippool"
+clustername = "cx-iks-cluster"
+ippool_list = "ist-iks-ippool"
 
 #All these are params used in k8s policy settings
-infra_config_policy = "rtp-iks-demo-01-infra-config-policy"
-ip_pool_policy = "rtp-iks-demo-01-ip-pool-policy"
-masterip_pool_policy = "rtp-iks-demo-01-ip-pool-policy"
-workerip_pool_policy = "rtp-iks-demo-01-ip-pool-policy"
-network_pod = "rtp-iks-demo-01-pod"
-network_service = "rtp-iks-demo-01-network"
-k8s_version = "1.21.10"
-k8s_version_name = "rtp-iks-demo-01-1.21.10"
-masterinstance = "rtp-iks-demo-01-master-instance"
+infra_config_policy = "ist-iks-infra-config-policy"
+ip_pool_policy = "ist-iks-ip-pool-policy"
+masterip_pool_policy = "ist-iks-ip-pool-policy"
+workerip_pool_policy = "ist-iks-ip-pool-policy"
+network_pod = "ist-iks-pod"
+network_service = "ist-iks-network"
+k8s_version = "1.21.13"
+k8s_version_name = "ist-iks01-1.21.13"
+masterinstance = "ist-iks-master-instance"
 mgmtcfgetcd = false
-mgmtcfglbcnt = 3
+mgmtcfglbcnt = 2
 mgmtcfgsshuser = "iksadmin"
-mastergrpname = "rtp-iks-demo-01-master-pool"
+mastergrpname = "ist-iks-master-pool"
 masterdesiredsize = 1
-workergrpname = "rtp-iks-demo-01-worker-pool"
-workerdesiredsize = 0
-masterinfraname = "rtp-iks-demo-01-masterinfraname"
-infrapolname = "rtp-iks-demo-01-infra-config-policy"
-instancetypename = "rtp-iks-demo-01-master-instance"
+workergrpname = "ist-iks-worker-pool"
+workerdesiredsize = 1
+masterinfraname = "ist-iks-masterinfraname"
+infrapolname = "ist-iks-infra-config-policy"
+instancetypename = "ist-iks-master-instance"
 #network params
 timezone = "Etc/GMT"
 domain_name = "dcv.svpod"
